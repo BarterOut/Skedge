@@ -1,0 +1,55 @@
+table {
+  width: 100%;
+  padding: 4px;
+  text-align: center;
+}
+
+tbody {
+  width: 100%;
+}
+
+th, td {
+  padding: 4px;
+}
+
+tr {
+  max-height: 36px;
+  margin: 2px 0;
+  font-weight: bold;
+}
+
+#cal-content {
+  height: 70%;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.time-block {
+  width: 100%;
+  height: 12%;
+  border-top: 1px solid rgba(92, 92, 92, 0.5);
+  border-radius: 1px;
+}
+
+.class-block {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: .5em;
+  justify-content: center;
+  margin: 0 0 0 20px;
+  width: 64px;
+  height: 100px;
+  background: slateblue;
+  border-radius: 6px;
+  z-index: 5;
+}
+
+@media only screen and (max-width: 700px) {
+  #calendar-wrap, #cal-content {
+    display: none;
+  }
+}
+

@@ -1,0 +1,13 @@
+.subCourseCategory {
+  margin: 10px, 15px;
+}
+
+.subCourseSectionGroup {
+  margin-bottom: 5px;
+}
+
+.subCourseCategory__title {
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: #007bff;
+}
